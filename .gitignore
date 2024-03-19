@@ -1,0 +1,6 @@
+*.exe
+*.test
+*.prof
+*.out
+/dist
+/bin

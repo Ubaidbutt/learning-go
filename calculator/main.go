@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"ubaidbutt.com/maths/division"
-	"ubaidbutt.com/maths/sum"
+	"ubaidbutt.com/maths/calculator/division"
+	"ubaidbutt.com/maths/calculator/sum"
 )
 
 func main() {
