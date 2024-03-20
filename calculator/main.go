@@ -10,11 +10,16 @@ import (
 )
 
 func main() {
-	const a = 10
-	const b = 50
+	var num1, num2 int
 
-	fmt.Println("The sum result produces: ", sum.Add(a, b))
-	fmt.Println("The division result produces: ", division.Divide(b, a))
-	fmt.Println("The subtraction result produces: ", subtraction.Subtract(b, a))
-	fmt.Println("The multiplication result produces : ", multiplication.Multiply(a, b))
+	fmt.Println("Enter the first number: ")
+	fmt.Scan(&num1)
+
+	fmt.Println("Enter the second number: ")
+	fmt.Scan(&num2)
+
+	fmt.Println("The sum result produces: ", sum.Add(num1, num2))
+	fmt.Println("The division result produces: ", division.Divide(num1, num2))
+	fmt.Println("The subtraction result produces: ", subtraction.Subtract(num1, num2))
+	fmt.Println("The multiplication result produces : ", multiplication.Multiply(num1, num2))
 }
